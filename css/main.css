@@ -383,6 +383,10 @@ img {
   padding: 0 20px;
 }
 
+.inner {
+  padding-top: 100px;
+}
+
 .form {
   display: -webkit-box;
   display: -ms-flexbox;
