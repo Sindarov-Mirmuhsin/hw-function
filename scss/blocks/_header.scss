@@ -1,0 +1,65 @@
+
+.form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title{
+  text-align: center;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.item{
+  border: 1px solid #000;
+  border-radius: 10px;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.item + .item{
+  margin-left: 50px;
+}
+
+.img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.input{
+  margin: 0 10px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.btn{
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.text{
+  text-align: center;
+}
+
+.p-result{
+  margin-left: 28px;
+}
+
+.v-result{
+  margin-left: 28px;
+}
+
+.m-result{
+  margin-left: 28px;
+}
+
+.s-result{
+  margin-left: 28px;
+}
